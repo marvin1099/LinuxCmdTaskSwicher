@@ -13,6 +13,9 @@ To use this script ou need to install:
     ```xdotool, xorg-xprop, xorg-xwininfo```  
 If you want to get notified on the desktop you also need the  
 "**notify-send**" command or you need to replace it in the script  
+Then you just download the script on one of these options:  
+Main Repo: https://codeberg.org/marvin1099/LinuxCmdTaskSwicher/releases  
+Backup Repo: https://github.com/marvin1099/LinuxCmdTaskSwicher/releases  
 
 # Usage
 
