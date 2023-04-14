@@ -4,8 +4,8 @@ This is a simple script I use with xbindkeys
 to swich between tasks with one keykombination  
 it just swiches to the next task based on time that it was opened  
 
-Main Repo: https://codeberg.org/marvin1099/LinuxCmdTaskSwicher
-Backup Repo: https://github.com/marvin1099/LinuxCmdTaskSwicher
+Main Repo: https://codeberg.org/marvin1099/LinuxCmdTaskSwicher  
+Backup Repo: https://github.com/marvin1099/LinuxCmdTaskSwicher  
 
 # Install 
 
