@@ -21,4 +21,4 @@ The syntax is:
 You can also just use:  
     ```./SwitchOpenWindows.sh```  
 and change the to start options in the script.  
-By default both of these options are disabled.
+By default both of these options are set to false.
