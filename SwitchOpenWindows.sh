@@ -26,7 +26,7 @@ do
     fi
     if [[ $skip = false && $w != "" ]]
     then
-        win=$(xwininfo -all -id $w)
+        win=$(xwininfo -all -id $w 2>/dev/null)
         if [[ ! $( echo $win | awk '/Below/') ]]
         then
             if [[ $(echo "$win" | awk '/Focused/') ]] #is focused
@@ -61,11 +61,6 @@ done
 if [[ ! $visible && ! $focus ]]
 then
     visible=$(awk '{print $0}' $dir$file)
-fi
-if [[ $visible && ! $focus ]]
-then
-    focus=$(echo "$visible" | tail -1)
-    visible=$(echo "$visible" | head -n -1)
 fi
 rm $dir$file
 
