@@ -10,7 +10,7 @@ Backup Repo: https://github.com/marvin1099/LinuxCmdTaskSwicher
 # Install 
 
 To use this script ou need to install:  
-    ```xdotool, xorg-xprop, xorg-xwininfo```  
+    ```xdotool xorg-xprop xorg-xwininfo```  
 If you want to get notified on the desktop you also need the  
 "**notify-send**" command or you need to replace it in the script
   
